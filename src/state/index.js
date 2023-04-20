@@ -1,8 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    mode: "dark"
+    mode: "dark",
+    userId: "63701cc1f03239b7f700000e", 
 };
+
+/*How to find it on MongoDb {_id: ObjectId('63701cc1f03239b7f700000e')} */ 
 
 export const globalSlice = createSlice({
     name: "global",
